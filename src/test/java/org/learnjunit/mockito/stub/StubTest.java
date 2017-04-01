@@ -31,6 +31,7 @@ public class StubTest {
 		// Test Double installation
 		sut.setTimeProvider(tpStub);
 
+		// Stub
 		// Set expectation
 		when(tpStub.getTime()).thenReturn(midnight);
 
